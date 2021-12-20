@@ -18,7 +18,6 @@ function App() {
         setDisplay(true)
         setalert(true);
         setfile(res.data.path);
-        setname('');
         setTimeout(()=>{
           setalert(false);
         },3000);
